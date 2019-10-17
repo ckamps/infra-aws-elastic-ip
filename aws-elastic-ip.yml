@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: '2010-09-09'
 
-Description: Provision Elastic IP address
+Description: Provision Elastic IP address 
 
 Resources:
   rEip:

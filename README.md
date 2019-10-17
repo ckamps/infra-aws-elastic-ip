@@ -6,7 +6,7 @@ The template exports the IP address and allocation ID so that other dependent Cl
 
 ```
 ${AWS::StackName}::address
-${AWS::StackName}::allocation-id
+${AWS::StackName}::allocation-id 
 ```
 
 For example, when setting up a site-to-site VPN connection between a VPN gateway platform and an AWS Customer Gateway, the external IP address of the local VPN gateway is needed before the AWS Customer Gateway resource can be configured.  Additionally, the local VPN gateway can't be configured until the AWS Customer Gateway is configured.
